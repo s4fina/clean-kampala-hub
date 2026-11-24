@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Kampala Hub</title>
+    <style>
+        body{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            background-color: rgb(108, 212, 212); 
+            background-image: url("https://i.pinimg.com/1200x/40/48/8d/40488d68be4b4d1dc06d767221cf1c12.jpg");
+                }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-bottom: 1.5px solid rgb(15, 120, 38);
+        }
+        header div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        header a{
+            color: green; /* clean Kampala part and everything that has a*/
+            text-decoration: none;
+            font-weight: bold;
+            margin: 6px;
+        }
+        nav{
+            display: flex; /*keep them on a row just*/
+            flex-wrap: wrap; /*moves them down if the row is not enough*/
+        }
+        nav a:hover{
+            color: white;
+            background-color: rgb(4, 82, 4);
+            transition: 0.3s;
+            border-radius: 5px;
+            padding: 5px;
+            
+        }
+        .Join{
+            background-color: rgb(4, 82, 4);
+            color: white;
+            padding: 7px 11px;
+            border-radius: 5px
+        }
+        main{
+            max-width: 1070px; /*just keeps it centred with the help pr margin auto*/
+            margin: auto;
+            padding: 16px;
+        
+        }
+        section{ /*basically everything under section, the different cards*/
+            background: rgb(9, 112, 35);
+            
+            padding: 23px;
+            margin: 18px 0;
+            border-radius: 10px;
+            
+        }
+        section h1{
+            text-align: center;
+            font-size: 30px;
+            
+        }
+        h1, h2{
+            color: rgb(4, 92, 4);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        article{
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            min-width: 210px;
+            transition: 0.3s;
+        }
+        article:hover{
+            border-color: black;
+            transform:translateY(-10px);
+            background-color: #158b81;
+        }
+    
+            
+        
+        .small{
+            font-size: 0.9em;
+            margin: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+                footer{
+            background: rgb(3, 65, 3);
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 25px; /*extend the content which is up, like put a gap btn*/
+        }
+        footer a{
+            color: rgb(17, 28, 180);
+            margin: 7px; /*space them, the links "a"*/
+        }
+        .logo{
+            font-size: 20px;
+            font-weight: 900;
+        }
+        .loogo{
+            color: rgba(247, 1, 1, 0.729);
+        }
+        .harsun{
+            background: url(https://cdn.pixabay.com/animation/2024/05/07/23/55/23-55-47-279_512.gif) bottom center/ 100% 300%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+          
+
+    </style>
+</head>
+<body>
+        <header>
+        <div>
+            <a href="index.html" class="logo">Clean <span class="loogo"> Kampala </span> Hub</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="find collector.html">Find a Collector</a>
+                <a href="report.html">Report a Problem</a>
+                <a href="waste guide.html">Waste Guide</a>
+                <a href="news.html">News</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
+                <a class="Join" href ="join.html">Join as a Collector</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1 class="harsun">News and Notices</h1>
+            <p style="text-align: center; text-transform: uppercase;">Background reading and information regarding waste Management</p>
+
+
+            <article>
+                <h2 >The Kiteezi landfill collapse</h2>
+                <p>The Kiteezi landfill collapse in August 2024 highlighted the risks connected to waste disposal, landfill management and the need for safer waste-management systems.</p>
+                <a href="https://eprcug.org/blog/kampala-garbage-an-issue-much-wider-than-just-kiteezi/">Read the Economic Policy Research Centre discussion</a>
+            </article>
+
+            <article>
+                <h2>Kampala's Waste Collection Challenge</h2>
+                <p>Read about the challenges of waste generation, collection and disposal in Kampala.</p>
+                <a href="https://www.monitor.co.ug/uganda/news/national/how-to-solve-a-waste-crisis-like-kampala-s-4723612">Read the Daily Monitor report</a>
+            </article>
+            <article>
+                <h2>Official KCCA Information</h2>
+                <p>For official city updates, notices and services, visit the Kampala Capital City Authority website.</p>
+                <a href="https://www.kcca.go.ug/">Visit the KCCA website for more information</a>
+            </article>
+            <p class="small"> stay intouch with us.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>♻ Clean Kamapla Hub ♻</strong></p>
+        <p>Working together for a cleaner Kampala</p>
+        <p>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="join.html">Join as a Collector</a>
+        </p>
+        <p>2026 Clean Kampala Hub</p>
+    </footer>
+
+</body>
+</html>
